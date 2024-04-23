@@ -10,7 +10,8 @@
  */
 
 function agua_necesaria(km) {
-  let agua = 1;
+  let agua = km * 0.5;
+  console.log("🚀 ~ agua_necesaria ~ agua:", agua)
   return agua;
 }
 

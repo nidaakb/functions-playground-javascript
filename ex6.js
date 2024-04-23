@@ -6,7 +6,8 @@
  * Modifica únicamente la función para conseguirlo.
  */
 function isUpperCase(word) {
-  return true;
+  // con el toUpperCase nos permite comparar 
+  return word == word.toUpperCase();
 }
 
 /**
